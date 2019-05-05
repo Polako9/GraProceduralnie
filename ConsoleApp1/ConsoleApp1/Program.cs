@@ -83,8 +83,8 @@ namespace GraProceduralnie
                 }
                 catch (InvalidOperationException)
                 {
-                    Console.WriteLine("Szkoda, że kończymy. Do widzenia.");
-                    return;
+                    Console.WriteLine("Wyjście awaryjne");
+                    return; //wyjście z main(),czyli opuszczenie programu
                 }
 
                 Console.WriteLine($"Przyjąłem wartość {propozycja}");
